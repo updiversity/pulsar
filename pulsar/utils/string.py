@@ -3,6 +3,7 @@ import string
 from hashlib import sha1
 from uuid import uuid4
 from random import randint, choice
+from __future__ import absolute_import
 
 
 _characters = string.ascii_letters + string.digits
